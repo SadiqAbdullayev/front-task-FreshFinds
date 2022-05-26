@@ -1,0 +1,94 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #242121;
+}
+
+#FreshFinds {
+  margin-top: 50px;
+}
+
+#FreshFinds .container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#FreshFinds .container .header .first {
+  text-decoration: underline;
+}
+
+#FreshFinds .container .header a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#FreshFinds .container .header a:hover {
+  color: #b1a38a;
+}
+
+#FreshFinds .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+#FreshFinds .container .row .col-lg-4 {
+  padding: 0;
+  margin: 0;
+  width: 210px;
+}
+
+#FreshFinds .container .row .col-lg-4 .card {
+  text-align: center;
+  background-color: #1e1c1c;
+  border: none;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#FreshFinds .container .row .col-lg-4 .card .img {
+  margin-top: 10px;
+}
+
+#FreshFinds .container .row .col-lg-4 .card .img img {
+  border-radius: 10px;
+  height: 185px;
+}
+
+#FreshFinds .container .row .col-lg-4 .card .card-body {
+  text-align: start;
+  padding: 0px;
+  padding-top: 10px;
+  color: white;
+  margin-left: 18px;
+}
+
+#FreshFinds .container .row .col-lg-4 .card .card-body h3 {
+  font-size: 20px;
+}
+
+#FreshFinds .container .row .col-lg-4 .card .card-body p {
+  width: 160px;
+  font-size: 12px;
+}
+
+#FreshFinds .container .row .col-lg-4 .card:hover {
+  background-color: #0e0909ec;
+}
+/*# sourceMappingURL=import.css.map */
